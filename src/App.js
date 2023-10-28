@@ -2,13 +2,13 @@
 // import Start from "./pages/Start.js"
 import { BrowserRouter as Router, Routes, Route }
     from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
     <div className="App">
-      <Navbar/>
+      <Navigation/>
       <Routes>
         {/* <Route exact path='/' element={<Start />} />
         <Route exact path='/home' element={<Home />} /> */}
