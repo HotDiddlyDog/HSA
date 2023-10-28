@@ -1,0 +1,28 @@
+.navbar{
+    
+}
+.container-header{
+    display: flex;
+}
+.gradient{
+    width:100vw;
+    height: 70vh;
+    background-image: linear-gradient(to right, #264653 , transparent);
+    position: relative;
+    transform-style: preserve-3d;
+
+}
+.image-head{
+    height: inherit;
+    position: absolute;
+    transform: translateZ(-10px);
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
+}
+.text-container{
+    max-width: 500px;
+    max-height: inherit;
+    text-align: center;
+    align-items: center;
+    
+}
